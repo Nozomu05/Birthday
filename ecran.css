@@ -62,7 +62,6 @@ div.beloved:after {
   display: flex;
   position: absolute;
   white-space: pre;
-  content: "Thank you \aSelena";
   text-align: center;
   line-height: 1.1;
   color: #FFFFFF;
