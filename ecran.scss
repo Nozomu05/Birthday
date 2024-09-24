@@ -4,8 +4,8 @@ $white: #FFFFFF;
 
 $shirt: #717A88;
 $head: #F0CAAB;
-$eyes: #090a09;
-$hair: #E3BA9B;
+$eyes: #000000;
+$hair: #000000;
 
 
 
@@ -42,7 +42,56 @@ div.beloved {
     background:
 
     /* hair */
-    radial-gradient(ellipse, $hair 3vmin,  transparent 5vmin)  50vmin 5vmin / 10vmin 5vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  43vmin 12vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  43vmin 13vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  43vmin 11vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  43.5vmin 10vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  63vmin 12vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  63vmin 13vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  63vmin 11vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  62.5vmin 10vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  62vmin 9vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  61.5vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  61vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  60vmin 6vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  59vmin 5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  58vmin 4.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  57vmin 4vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  56vmin 3.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  55vmin 3.25vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  54vmin 3vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  53vmin 3vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  52vmin 3vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  51vmin 3vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 3.25vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  49vmin 3.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  48vmin 4vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  47vmin 4.75vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  46vmin 5.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  45.5vmin 6.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  45vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  44.5vmin 7.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 7.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 5.75vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  47vmin 7.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  47vmin 9vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  55vmin 7.5vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  59vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  50vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  51vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  52vmin 9vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  53vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  54vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  55vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  56vmin 9vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  57vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  58vmin 7vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  59vmin 8vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  55vmin 6vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  54vmin 6vmin / 4vmin 4vmin no-repeat,
+    radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 4vmin)  53vmin 6vmin / 4vmin 4vmin no-repeat,
 
     /* eyes  */
     radial-gradient(circle, $eyes .75vmin, darken($eyes, 75%) .75vmin,   transparent 1vmin)  52vmin 12vmin / 4vmin 4vmin no-repeat,
