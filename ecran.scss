@@ -7,13 +7,27 @@ $head: #F0CAAB;
 $eyes: #000000;
 $hair: #000000;
 
-
+body{
+  overflow: hidden;
+}
 
 *, *:before, *:after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+
+button{
+  position: absolute;
+  width: 400px;
+  height:300px;
+  margin-bottom: 12%;
+  margin-left: 4%;
+  border:none;
+  background-color: red;
+}
+
 
 body {
   width: 100vw;
@@ -24,13 +38,11 @@ body {
   margin: 0 auto;
   background: linear-gradient(180deg, darken($white, 5%) 15%, darken($white, 15%) 100%);
 }
-
-div:before, div:after {
+div:before,div:after {
   display: block;
   content: '';
   position: absolute;
 }
-
 div.beloved {
     width: 100vmin;
     height: 100vmin;
@@ -110,7 +122,6 @@ div.beloved {
 }
 
 
-
 div.beloved:before {
     width: 100vmin;
     height: 100vmin;
@@ -131,7 +142,6 @@ div.beloved:before {
     ;
 }
 
-
 div.beloved:after {
     width: 100vmin;
     height: 100vmin;
@@ -149,7 +159,6 @@ div.beloved:after {
     font-family: 'Architects Daughter', cursive;
     font-size: 12vmin;
 }
-
 div.beloved:before{
   animation: floatturn 10s ease-out infinite;
 }
@@ -161,8 +170,7 @@ div.beloved:before{
       rotateZ(45deg)
       translateY(-3vmin);
   }
-}
-div.beloved:after{
+}div.beloved:after{
   animation: float 10s ease-out infinite;
 }
 
