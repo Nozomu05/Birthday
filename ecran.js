@@ -1,3 +1,3 @@
 function changement(){
-     window.open("page2.html");
+     location.href="page2.html"
 }
