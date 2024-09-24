@@ -12,9 +12,8 @@ a {
   position: absolute;
   width: 400px;
   height: 300px;
-  margin-bottom: 12%;
-  margin-left: 4%;
-  border: black;
+  margin: 50%;
+  border: black 10px;
 }
 
 body {
