@@ -22,7 +22,7 @@ html {
   src: url(Richford-Regular.ttf);
 }
 #principale {
-  height: 93vmin;
+  height: 100%;
 }
 
 h1 {
